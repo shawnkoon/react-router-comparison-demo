@@ -1,12 +1,16 @@
 import React from 'react';
 import { render } from 'react-dom';
 import {
-  makeV3Route,
+  mountVersion3,
 } from './AppV3';
+import {
+  mountVersion4,
+} from './AppV4';
 
+// Mount specific version to test.
 render(
   <div>
-    {makeV3Route()}
+    {mountVersion3()}
   </div>,
   document.getElementById('root')
 );

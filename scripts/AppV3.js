@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { render } from 'react-dom'
 import {
   browserHistory,
@@ -10,6 +10,7 @@ import {
 
 const BasicExample = (props) => (
   <div>
+    <h1>This is version 3 of React Router</h1>
     <ul>
       <li><Link to="/">Home</Link></li>
       <li><Link to="/about">About</Link></li>
@@ -63,7 +64,7 @@ const DefaultText = () => (
   </div>
 );
 
-export const makeV3Route = () => (
+export const mountVersion3 = () => (
   <Router history={browserHistory}>
     <Route path="/" component={BasicExample}>
       <IndexRoute component={Home}/>
