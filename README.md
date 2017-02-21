@@ -8,7 +8,7 @@ React Router v3 &amp; v4 comparison demo
 
 2. Build the project via `npm run build`
 
-3. Run server via `node server.js`
+3. Run server via `npm run start`
 
 4. Mount specific version of React Router to test.
 	1. Open up `index.html` file.
